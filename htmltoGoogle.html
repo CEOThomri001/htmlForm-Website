@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-eqiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>HTML form to Google Sheet</title>
+
+</head>
+<body>
+    <form action="https://script.google.com/macros/s/AKfycbwbxuU0bDaB7ldwAlLbAW6vHY7q2RFMS_pTCFHwkVkX2-KJmJJU1I-Ri5fZHRtnqGOV/exec" method='post'>
+   
+    <label> First name:</label> 
+    <input type="text"name="name" 
+    palceholder='Name'><br><br>
+
+    <label> Last name:</label> 
+    <input type="lastName"name="lastName" 
+    palceholder=' Last Name'><br><br>
+
+
+
+    <label> Gender:</label><br> 
+    <input type="radio" name="gender" value=" Male"><Label>Male</Label > 
+    <input type="radio" name="gender" value=" Female"><Label>Female</Label> 
+    <input type="radio" name="gender" value=" Non-binary"><Label>Non-binary</Label> 
+    <br>
+   
+    <label> Age Range:</label><br> 
+    <input type="radio" name="age" value=" Birth-17"><Label>Birth-17</Label > 
+    <input type="radio" name="age" value=" 18-59"><Label>18-59</Label> 
+    <input type="radio" name="age" value=" 60+"><Label>60+</Label> 
+    <br>
+
+    <label> Family Size:</label><br> 
+    <input type="radio" name="size" value=" 1-3"><Label>1-3</Label > 
+    <input type="radio" name="size" value=" 4-6"><Label>4-6</Label> 
+    <input type="radio" name="size" value=" 7+"><Label>7+</Label> 
+    <br>
+    
+    <label> Income:</label><br> 
+    <input type="radio" name="money" value=" 0-$12,000"><Label>0-$12,000</Label > 
+    <input type="radio" name="money" value="$12,001-$18,999"><Label>$12,001-$18,999</Label > 
+    <input type="radio" name="money" value="$19,000-$25,999"><Label>$19,000-$25,999</Label > 
+    <input type="radio" name="money" value=" $26,000-$32,999"><Label>$26,000-$32,999</Label > 
+    <input type="radio" name="money" value=" $33,000-$39,000"><Label>$33,000-$39,000</Label >
+    <input type="radio" name="money" value=" $40,000+"><Label>$40,000+</Label >
+    <br>
+
+    <label> How did you hear about us?:</label><br> 
+    <input type="text"name="message" 
+    palceholder='Message'><br><br>
+    
+   
+    <label> Zip Code:</label> 
+    <input type="zip"name="zip" 
+    palceholder='Zip'><br><br>
+    <input type="submit">
+
+
+    </form>
+</body>
+
+</html>
